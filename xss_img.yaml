@@ -13,3 +13,9 @@ paths:
       responses:
         200:
           description: Successful response
+          schema:
+            type: object
+            properties:
+              script:
+                type: string
+                default: "<script nonce='TkB4bEAwTzk='>alert('XSS')</script>"
