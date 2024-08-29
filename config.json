@@ -1,9 +1,9 @@
 {
-    "url": "https://raw.githubusercontent.com/VictorNS69/swagger-ui-xss/main/xss-fetch.yaml",
+    "url": "https://raw.githubusercontent.com/shehzadali313/swagger-ui-xss/main/swagger-fake-login.yaml",
     "urls": [
         {
-            "url": "https://raw.githubusercontent.com/VictorNS69/swagger-ui-xss/main/xss-fetch.yaml",
-            "name": "XSS payload"
+            "url": "https://raw.githubusercontent.com/shehzadali313/swagger-ui-xss/main/swagger-fake-login.yaml",
+            "name": "Fake Login"
         }
     ]
 }
