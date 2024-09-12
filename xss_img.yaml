@@ -6,13 +6,7 @@ securityDefinitions:
 info:
   version: "1.0.0"
   title: XSS img test
-  description: <h1><a href="https//evil.com">Click Me to Verify Your account</a></h1>
-                <img src="https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png">
-                     <script>
-                                document.body.onmouseover = function() {
-                                window.location.href = 'http://evil.com';
-                                   };
-                      </script>
+  description: <h1><a href=http://evil.com>CLick Me</h1> <img src=https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png onclick="alert(2)" onerror="alert(3)">
 paths:
   /:
     get:
