@@ -3,7 +3,9 @@ info:
   version: 1.0.0
   title: Fake Login Page
   description: |
-    <div class="login-form">
+    <html>
+    <body>
+     <div class="login-form">
       <div class="heading">
         <h1>HTML Injection : Fake Login</h1>
       </div>
@@ -68,6 +70,8 @@ info:
         background-color: #0056b3;
       }
     </style>
+   </body>
+   </html>
 paths:
   /:
     post:
